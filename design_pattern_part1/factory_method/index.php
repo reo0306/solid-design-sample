@@ -18,7 +18,7 @@ class Platinum implements CreditCard
 
     public function getAnnualCharge(): int
     {
-        return 30000;        
+        return 30000;
     }
 }
 
@@ -31,7 +31,7 @@ class Gold implements CreditCard
 
     public function getAnnualCharge(): int
     {
-        return 10000;        
+        return 10000;
     }
 }
 

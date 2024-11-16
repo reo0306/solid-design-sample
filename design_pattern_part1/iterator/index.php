@@ -63,7 +63,7 @@ class WaitingRoomIterator implements IIterator
     public function __construct(WaitingRoom $aggregate)
     {
         $this->position = 0;
-        $this->aggregate = $aggregate;        
+        $this->aggregate = $aggregate;
     }
 
     public function hasNext(): bool
